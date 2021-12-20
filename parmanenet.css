@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  height: 1500px;
+}
+.image {
+  background-color: #083349;
+  height: 680px;
+}
+#img1 {
+  height: 680px;
+  width: 100%;
+  opacity: 0.2;
+}
+nav {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  height: 60px;
+}
+nav ul li {
+  width: 98px;
+  margin: 12px;
+  padding: 10px;
+}
+nav ul li a {
+  color: #083349;
+  text-decoration: none;
+  width: 120px;
+  font-size: 16px;
+}
+.active,
+nav ul li:hover {
+  border-bottom: 2px solid #083349;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-color: #2cc41e;
+}
+.logo {
+  position: absolute;
+  left: 48px;
+  top: 5px;
+  font-size: 26px;
+  border-bottom: 4px solid #083349;
+  border-radius: 12px;
+  cursor: context-menu;
+  font-family: "Dancing Script", cursive;
+  color: #083349;
+}
+span {
+  color: #2cc41e;
+}
+#search {
+  position: absolute;
+  top: 14px;
+  right: 60px;
+  width: 257px;
+  padding: 8px;
+  border: none;
+  color: #a5a5a5;
+  border-radius: 44px;
+  border: 1px solid #e5e5e5;
+}
+.heading {
+  border-bottom: 2px solid #2cc41e;
+  width: 635px;
+  color: #2cc41e;
+  position: absolute;
+  left: 35px;
+  top: 80px;
+}
+.btn1 {
+  position: absolute;
+  top: 550px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 32px;
+  border: 2px solid #304b58;
+  margin: 10px 565px;
+  /* color: #304b58; */
+  cursor: pointer;
+}
+#log {
+  font-size: 20px;
+  color: #304b58;
+}
+.para1 {
+  position: absolute;
+  top: 220px;
+  width: 600px;
+  text-align: justify;
+  color: white;
+  left: 35px;
+  font-family: revert;
+  word-spacing: 5px;
+  font-size: 20px;
+}
+#img2 {
+  width: 470px;
+  height: 350px;
+  position: absolute;
+  top: 170px;
+  right: 94px;
+  border-radius: 50px;
+  border: 20px solid #0b2a3b;
+}
+/*  */
+.content-box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  margin: 45px;
+  height: 300px;
+  width: 250px;
+  border-radius: 12px;
+  background-color: #304b58;
+  cursor: pointer;
+}
+.box:hover {
+  color: rgb(36, 34, 34);
+  transition: all 0.4s;
+  background-image: url("john-michael-thomson-9m1V6A8Fm-A-unsplash.jpg");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+#heading {
+  text-align: center;
+  position: relative;
+  top: 16px;
+  text-decoration: underline;
+}
+.box p {
+  text-align: justify;
+  margin: 40px 15px 0px 10px;
+  font-style: italic;
+  font-size: 15px;
+}
